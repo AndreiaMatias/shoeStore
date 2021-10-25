@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+
+header{
+    margin: auto;
+    display:flex;
+    width: 70vw;
+    max-width: 100%;
+    height: 5vw;
+    max-height: 100%;
+    justify-content: space-around;
+    align-items:stretch;
+}
+
+.logo-cabecalho{
+flex-grow: 2;
+}
+
+.logo{
+    width:10hw;
+    max-width:100%;
+    height: 10vh;
+}
+.cabecalho{
+flex-grow:1;   
+padding:2em 0; 
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+    margin-right:0;
+}
+
+.itens-menu{
+    font-size: 1.25em;
+    color: grey;
+}
+
+a{
+    text-decoration: none;
+}
+
+.banner{
+    margin: auto;
+    width: 70vw;
+    max-width:100%;
+    height: 30vh;
+}
+
+.banner-p{
+    width:100hw;
+}
+
+.estilo{
+    width:70hw;
+    height:130vh;
+    max-width: 100%;
+}
+
+h1{
+    font-size: 3.12em;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.imagens{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:center;
+    margin: auto;
+}
+
+.botas{
+    width:30hw;    
+    display: block;
+}
+
+.sapatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    height: 80vh;
+    width: 100vw;
+    background-color: #C2185B;
+}
+
+.sale{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+
+.anuncios{
+ margin: auto;
+ width:65vw;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0;
+
+}
+
+.modelos{
+    margin:0;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto{
+    width: 15vw;
+    max-width: 100%;
+    display: block;
+}
+
+.texto{
+    margin: 0;
+    border: 0;
+    padding: 0.75em;
+    background-color: white;
+}
+
+p{
+    margin: 0;
+}
+
+.tipo{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+.sandalia{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150vh;
+    margin: auto;
+    width: 70%;
+}
+
+.sandalia-foto-texto{
+    height: 120vh;
+    width:100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+}
+
+.texto-sandalia{
+    width: 30vw;
+}
+
+.sandalia-texto{
+    font-size: 2.44em;
+    margin:auto;
+}
+
+.botao{
+    width:20vw;
+    height: 10vh;
+    background-color: #C2185B;
+    color: #ffffff;
+    font-size: 2.44em;
+    display: table;
+}
+
+.sandalia-botao{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.sandalia1{
+    width:30vw;
+    height:90vh;
+}
+
+.sandalia2{
+    width:30vw;
+}
+
+.footer{
+    background-color: #C2185B;
+    color: #ffffff;
+    display: flex;
+    width:100vw;
+    height: 30vh;
+}
+
+
+.logo-texto{
+    display: flex;
+    flex-grow: 1;
+    margin-left: 8em;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.logo{
+    display:flex;
+    margin:0;
+}
+
+img.logo-white{
+    display: block;
+    width: 10vw;
+    max-width: 100%;
+    margin:0;
+    padding:0;
+}
+
+p.texto{
+    width: 20vw;
+    margin: 0;
+    padding:0;
+    background-color: #C2185B;
+}
+
+.categorias{
+    flex-grow: 1;
+    align-self: center; 
+}
+
+.institucional{
+    flex-grow: 1;
+    align-self: center;
+}
+
+.itens{
+    color:white;
+    font-size: 16px;
+}
+
