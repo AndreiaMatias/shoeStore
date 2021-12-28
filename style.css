@@ -244,3 +244,96 @@ p.texto{
     font-size: 16px;
 }
 
+.form{
+    margin: auto;
+    width: 70vw;
+    
+}
+
+.caixas-form{
+    display: flex;
+    height:100vh;
+    align-items:center;
+    padding-top: 80px;
+}
+
+.formulario{
+    flex-grow: 1;
+    width: 50%;
+    height: 120vh;}
+
+.form-texto{
+   flex-grow: 1; 
+   width: 50%;
+   height: 90vh;
+   justify-content: space-evenly;
+   align-self:stretch;
+   
+}
+
+.formulario-texto{
+    text-align: justify;
+    
+}
+
+.faixa{
+    height: 2.4em;
+    background-color: #C2185B;
+    position:relative;
+    top: -2em;
+   
+}
+
+
+.aviso-faixa{
+    font-size: 1em;;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    position:relative;
+    z-index:10;
+}
+
+.aviso{
+    position: sticky;
+    top:0;
+}
+
+.botao-enviar{
+    background-color: #C2185B;
+    color: white;
+    transition-property: background-color, color;
+    transition-duration: 3s;
+}
+
+.botao-enviar:hover{
+    background-color: white;
+    color: #C2185B;
+}
+
+input, select, textarea{
+    width:70vh;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+
+input[type=checkbox]{
+    width: 1vw;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+input[type="radio"]{
+    width: 1vw;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+h2{
+    font-size: 39px;
+}
+
+input [type="file"]{
+    display: none;
+}
